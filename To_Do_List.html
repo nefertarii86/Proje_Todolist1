@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device=width, initial-scale=1.0">
-        <title> To Do App </title>
-        <link href="./css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/style.css">
-
-    </head>
-    <body>
-            <div class="container border p-5 my-5"> 
-                    <div class="text-dark text-center">
-                    <h5>To Do App</h5>
-                    </div>  
-                    <form class="row align-items-center">
-                        <div class="row p-3 my-3">
-                            <div class="col-auto">
-                            <input type="text" class="form-control" placeholder="Enter a task here">
-                            </div>
-                            <div class="col-auto">
-                            <button type="button" class="btn btn-primary">SAVE</button>
-                            </div>
-                            <div class="col-auto">
-                            <button type="button" class="btn btn-warning">GET TASKS</button>
-                            </div>
-                        </div>
-                    </form>
-                      
-                <table class="text-secondary table mb-8"> <!--mb değerini düzelt!-->
-                    <thead>
-                        <tr>
-                            <th scope="col"> No. </th>
-                            <th scope="col"> Todo item </th>
-                            <th scope="col"> Status </th>
-                            <th scope="col"> Action </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Buy groceries for next week</td>
-                            <td>In progress</td>
-                            <td> <button type="button" class="btn btn-danger">DELETE</button>
-                                 <button type="button" class="btn btn-success">FINISHED</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Renew car insurance</td>
-                            <td>In progress</td>
-                            <td> <button type="button" class="btn btn-danger">DELETE</button>
-                                 <button type="button" class="btn btn-success">FINISHED</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Sign up for online course</td>
-                            <td>In progress</td>
-                            <td> <button type="button" class="btn btn-danger">DELETE</button>
-                                 <button type="button" class="btn btn-success">FINISHED</button> </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        <script src="./js/bootstrap.bundle.min.js"> </script>
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title> To Do App </title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container border p-5 my-5"> 
+      <div class="text-dark text-center">
+      <h5>To Do App</h5>
+      </div>  
+      <form class="row align-items-center">
+      <div class="row p-3 my-3">
+        <div class="col-auto">
+          <input type="text" class="form-control" placeholder="Enter a task here">
+        </div>
+        <div class="col-auto">
+         <button type="button" class="btn btn-primary">SAVE</button>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn btn-warning">GET TASKS</button>
+        </div>
+      </div>
+      </form>      
+               
+    <table class="text-secondary table mb-8"> <!--mb değerini düzelt!-->
+      <thead>
+        <tr>
+          <th scope="col"> No. </th>
+          <th scope="col"> Todo item </th>
+          <th scope="col"> Status </th>
+          <th scope="col"> Action </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+            <td>Buy groceries for next week</td>
+            <td>In progress</td>
+            <td> <button type="button" class="btn btn-danger">DELETE</button>              
+                 <button type="button" class="btn btn-success">FINISHED</button> 
+            </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+            <td>Renew car insurance</td>
+            <td>In progress</td>
+            <td> <button type="button" class="btn btn-danger">DELETE</button>
+                 <button type="button" class="btn btn-success">FINISHED</button>
+            </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+            <td>Sign up for online course</td>
+            <td>In progress</td>
+            <td> <button type="button" class="btn btn-danger">DELETE</button>
+                 <button type="button" class="btn btn-success">FINISHED</button>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  <script src="./js/bootstrap.bundle.min.js"> </script>
+  </body>
 </html>
