@@ -1,8 +1,8 @@
 
 .btn {
-    color: white;
+    color:#fff;
 }
 
-.btn.btn-primary {
+.btn.btn-light {
   color:#000
 }
