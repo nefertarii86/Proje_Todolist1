@@ -3,3 +3,6 @@
   color:#fff;
 }
 
+div.row {
+  justify-content: center;
+}
