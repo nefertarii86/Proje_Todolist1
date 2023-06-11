@@ -6,12 +6,3 @@
 div.row {
   justify-content: center;
 }
-
-.btn.btn-danger, .btn.btn-success {
-  float: right;
-}
-
-th.right {
-  padding-right: 8px;
-  text-align: right;
-} 
