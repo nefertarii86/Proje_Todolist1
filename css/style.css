@@ -7,7 +7,7 @@ div.row {
   justify-content: center;
 }
 
-#right {
+.btn.btn-danger, .btn.btn-success {
   float: right;
 }
 
