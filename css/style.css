@@ -6,3 +6,7 @@
 div.row {
   justify-content: center;
 }
+
+#right {
+  float: right;
+}
