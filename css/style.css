@@ -10,3 +10,8 @@ div.row {
 #right {
   float: right;
 }
+
+th.right {
+  padding-right: 8px;
+  text-align: right;
+}
