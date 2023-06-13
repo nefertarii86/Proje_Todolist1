@@ -8,8 +8,12 @@ div.row {
 }
 
 .btn.btn-success, .btn.btn-danger {
-  text-align: right;
   width: 8em;
   height: 2.5em;
   margin: 10px;
+}
+
+th.right {
+  padding-right: 8px;
+  text-align: right;
 }
