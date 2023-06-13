@@ -8,9 +8,7 @@ div.row {
 }
 
 .btn.btn-success, .btn.btn-danger {
-  width: 8em;
-  height: 2.5em;
-  margin: 10px;
+  margin: 2px;
 }
 
 th.right {
