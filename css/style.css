@@ -11,7 +11,7 @@ div.row {
   margin: 2px;
 }
 
-th.right {
-  padding-right: 145px;
-  text-align: right;
+.left {
+  width: 17%;
 }
+
